@@ -1,0 +1,16 @@
+{
+  "name": "2022.01.26-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "server": "NODE_ENV=production node .",
+    "test": "NODE_ENV=test node ./index.js"
+  },
+  "author": "Rokas <rokasstankevicius3@gmail.com>",
+  "license": "ISC"
+}
